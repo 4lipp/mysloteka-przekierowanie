@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Myśloteka — przenosimy na mysloteka.pl</title>
+<link rel="canonical" href="https://mysloteka.pl/">
+<meta name="robots" content="noindex, follow">
+<!-- Przekierowanie myśloteka.pl → mysloteka.pl (zachowuje podstronę, np. #/odcinki) -->
+<script>
+  location.replace("https://mysloteka.pl" + location.pathname + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://mysloteka.pl/">
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; color: #faf0e2;
+    background: linear-gradient(112deg, #0b171c 0%, #0f2630 50%, #133d4a 100%); text-align: center; padding: 24px; }
+  a { color: #1d0e04; background: #ff751f; font-weight: 700; text-decoration: none; padding: 12px 20px; border-radius: 12px; display: inline-block; margin-top: 12px; }
+  a:focus-visible { outline: 3px solid #ffd36e; outline-offset: 3px; }
+</style>
+</head>
+<body>
+  <main>
+    <p>Myśloteka jest teraz pod adresem <b>mysloteka.pl</b>.</p>
+    <a href="https://mysloteka.pl/">Przejdź na mysloteka.pl</a>
+  </main>
+</body>
+</html>
